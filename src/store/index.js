@@ -6,6 +6,9 @@ import mainReducer from '../reducers'
 // every time we start the app, or refresh the browser, the state will be resetted to this
 export const initialState = {
   count: 0,
+  loading: true,
+  error: false,
+  products: [],
 }
 
 // createStore takes 3 arguments
